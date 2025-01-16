@@ -1,5 +1,5 @@
 design:
-  theme: org_template
+  theme: orgtemplate
   page:
     size: a4
     top_margin: 2cm
