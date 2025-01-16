@@ -1,0 +1,62 @@
+cv:
+  name: John Doe
+  sections:
+    about:
+      - I'm a senior software engineer with 12 years of experience building full stack applications
+        across the stack.
+      - Passionate for developing innovative solutions to complex problems. I have
+        experience in a wide range of technologies and frameworks,
+        including Python, C++, React.js, and TensorFlow.
+      - I'm currently working on optimizing autonomous vehicles in urban environments
+        as part of my PhD at Stanford University.
+    skills:
+      - label: Programming Languages
+        details: Proficient with Python, C++, and Git; good understanding
+          of Web, app development, and DevOps
+      - label: Frameworks
+        details: React.js, Nest.js, Next.js, TensorFlow, PyTorch
+    projects:
+      - name: "Project 1"
+        start_date: 2024-05
+        end_date: present
+        summary: A web application for writing essays
+        highlights:
+          - Launched an [iOS app](https://example.com) in 09/2024
+            that currently has 10k+ monthly active users
+          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+      - name: "Project 2"
+        date: Fall 2023
+        highlights:
+          - Instructed the "Statics" course on Udemy (60,000+
+            students, 200,000+ hours watched)
+    personal tech endeavours:
+      - label: Blog
+        details: Actively maintaining my technial blog https://johndoe.dev
+      - label: Android app
+        details: Actively maintaining my android app daybook
+    education:
+      - institution: Stanford University
+        area: Computer Science
+        degree: PhD
+        location: Stanford, CA, USA
+        start_date: 2023-09
+        end_date: present
+        highlights:
+          - Working on the optimization of autonomous vehicles
+            in urban environments
+      - institution: Boğaziçi University
+        area: Computer Engineering
+        degree: BS
+        location: Istanbul, Türkiye
+        start_date: 2018-09
+        end_date: 2022-06
+        highlights:
+          - "GPA: 3.9/4.0, ranked 1st out of 100 students"
+          - "Awards: Best Senior Project, High Honor"
+    socials:
+      - label: Email
+        details: john@doe.com
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/johndoe
+      - label: Github
+        details: http://github.com/johndoe

@@ -1,8 +1,8 @@
 cv:
-  name: John Doe 123
+  name: Ashok Kumar
   sections:
     about:
-      - I'm a senior software engineer with 12 years of experience building full stack applications
+      - I'm a senior software engineer with 20 years of experience building full stack applications
         across the stack.
       - Passionate for developing innovative solutions to complex problems. I have
         experience in a wide range of technologies and frameworks,
@@ -31,11 +31,11 @@ cv:
             students, 200,000+ hours watched)
     personal tech endeavours:
       - label: Blog
-        details: Actively maintaining my technial blog https://johndoe.dev
+        details: Actively maintaining my technial blog https://ashokkumar.dev
       - label: Android app
         details: Actively maintaining my android app daybook
     education:
-      - institution: Stanford University
+      - institution: MIT
         area: Computer Science
         degree: PhD
         location: Stanford, CA, USA
@@ -55,8 +55,8 @@ cv:
           - "Awards: Best Senior Project, High Honor"
     socials:
       - label: Email
-        details: john@doe.com
+        details: ashok@kumar.com
       - label: LinkedIn
-        details: https://www.linkedin.com/in/johndoe
+        details: https://www.linkedin.com/in/ashokkumar
       - label: Github
-        details: http://github.com/johndoe
+        details: http://github.com/ashokkumar
