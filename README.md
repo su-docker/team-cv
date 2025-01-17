@@ -15,7 +15,7 @@ Maintaining up-to-date, shareable team portfolios can be a challenge for small s
 
 ## Quick Start
 
-1. **Fork the Repository:** Fork this repo to your organization’s GitHub account.
+1. **Clone the Repository:** Clone this repo to your organization’s GitHub account.
 2. **Customize Template:** Edit the `config.yaml` and files in `orgtemplate` in the /data folder to match your brand and needs. See `Customizing the Profile Template` section below for details.
 3. **Create Profiles:** Ask team members to submit their profiles as YAML files via pull requests.
 4. **Automate PDF Generation:** GitHub Actions will automatically generate PDF profiles within the PR.
