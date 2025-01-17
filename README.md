@@ -1,20 +1,33 @@
 # Team CV
 
-The pain of maintaining shareable portfolios of the team for a small services company made me create this repo. I hope others running botique services shops will benefit from this. This repo is using [rendercv](https://github.com/rendercv/rendercv/tree/main) with custom template for an organisation (data/org_template)
+## Overview
 
-## How it works
+Maintaining up-to-date, shareable team portfolios can be a challenge for small services companies. This repository offers a streamlined solution, enabling you to centralize and standardize your team's profiles while automating the creation of professional PDF CVs. Built using [RenderCV](https://github.com/rendercv/rendercv/tree/main) with a custom organizational template, it’s designed to save time and effort.
 
-Every person's profile information is stored in their corresponding yaml files under data folder. There is a predefined format expected for this yaml file (which can be found in rendercv documentation). Once the yaml file is updated, running the `generate_profile.sh` script will create the pdf under `profiles` folder
+## Features
 
-### Adding new team members
+- Centralized repository for all of team members profiles
+- Automated PDF generation using GitHub Actions
+- Fully customizable templates for a consistent, professional look
+- Easy to update and maintain
 
-1. Create a copy of the `data/sample_profile.yaml` under the same folder and rename it to your new team member's name
-2. Edit the new file to put in all their work history and other required details
-3. Run `./generate_profile.sh data/<your_file>.yaml`
-4. If there are any yaml errors, it will be printed on the console. Fix them appropriately.
-5. On successful run, your profile pdf file will be created under `profiles` folder.
+## Quick Start
 
-## TODO
+1. **Fork the Repository:** Fork this repo to your organization’s GitHub account.
+2. **Customize Template:** Edit the `config.yaml` and files in `orgtemplate` in the /data folder to match your brand and needs. See #customizing-the-profile-template section below for details.
+3. **Create Profiles:** Ask team members to submit their profiles as YAML files via pull requests.
+4. **Automate PDF Generation:** GitHub Actions will automatically generate PDF profiles within the PR.
+5. **Review and Merge:** Review and merge the PR to keep profiles up to date in the /profiles folder.
 
-1. Add github action to automatically run the above command on the yaml files changed in each commit
-2. Push the generated pdf file into Tarka Labs sharepoint folder for sales team to easily access and share the PDF profiles
+## YAML Format
+
+The profile format is based on the RenderCV engine. Sample YAML files are provided in the `/data` folder (e.g., sample_profile_1.yaml). For detailed guidance on the structure, visit the [RenderCV yaml structure](https://docs.rendercv.com/user_guide/structure_of_the_yaml_input_file) documentation.
+
+## Customizing the Profile Template
+
+You can tailor the profile template to meet your organization’s needs by editing the `/data/config.yaml` file. Key configurable options include:
+
+- **Design:** Controls the overall layout and style.
+- **Locale:** Manages locale-specific attributes for profiles.
+
+By centralizing these settings, individual profiles inherit a consistent design, making your team's CVs uniform and professional.
