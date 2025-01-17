@@ -1,0 +1,130 @@
+cv:
+  name: Md Ibrahim Hassan
+  title: Senior Technical Consultant
+  sections:
+    about:
+      - Software Developer with 8 years of experience in mobile, macOS, and server-side Swift app development.
+      - Portfolio includes 10+ apps, with expertise in converting and optimizing 30+ apps from Objective-C to Swift and UIKit to SwiftUI.
+    skills:
+      - label: Programming Languages
+        details: Swift, Objective-C, Dart, Kotlin
+      - label: Frameworks and Libraries
+        details: UIKit, SwiftUI, Flutter
+      - label: Databases
+        details: SQLite, Realm ORM, Core Data
+      - label: DevOps & Hosting
+        details: Xcode Cloud, Firebase, GitHub Actions
+      - label: Testing
+        details: XCTest
+    projects:
+      - name: ARK
+        start_date: 2024-07
+        end_date: 2024-12
+        summary: Enhanced a blockchain-based intellectual property protection application for seamless user experience.
+        highlights:
+          - Developed complex chained animations to enhance app functionality and user experience.
+          - Revamped Flutter mobile and React web apps for optimal performance and stability.
+          - Ensured timely Apple App Store approval to support a client presentation at Harvard.
+      - name: Flash
+        start_date: 2023-11
+        end_date: 2024-01
+        summary: Enhanced email rendering on iOS using Flutter.
+        highlights:
+          - Fixed performance bottlenecks when rendering emails on iOS.
+          - Enhanced the User Experience and the animations.
+      - name: EAM360
+        start_date: 2024-02
+        end_date: 2024-07
+        summary: Automated build processes with Tuist for improved efficiency.
+        highlights:
+          - The application included multiple targets and numerous accumulated source files, leading to slow builds and a compromised project structure.
+          - After this change, the xcodeproj was generated using Tuist, which improved build times by allowing generation of only the required targets. This also provided an opportunity to streamline the project structure and remove unnecessary files.
+      - name: Digital Twin App (GAEA Global)
+        start_date: 2024-02
+        end_date: 2024-05
+        summary: Developed an iPhone app to create a digital twin of a booth.
+        highlights:
+          - Used Ultra-Wideband Bluetooth to calculate the distance between two iPhones and relayed this data to a backend for updating device locations in the digital twin.
+      - name: Tarka UI Kit
+        start_date: 2023-05
+        end_date: 2024-07
+        summary: Designed and developed a comprehensive UI Kit to establish design consistency and accelerate product development.
+        highlights:
+          - Created a modular, reusable set of UI components tailored for scalable product design.
+          - Implemented snapshot testing and component documentation to ensure visual integrity and maintainability.
+          - Aligned UI standards with product goals by collaborating closely with design and development teams.
+      - name: Storyboard to SwiftUI Converter
+        start_date: 2020-01
+        end_date: 2022-12
+        summary: Developed a Server-side Swift app to convert iOS storyboards/XIB to SwiftUI.
+        highlights:
+          - Researched and developed the Storyboard to SwiftUI converter from scratch, which converts iOS Storyboards/XIBs to SwiftUI.
+          - Worked on user feedback to enhance the converter and wrote articles to document the usage.
+          - Also worked on setting up the scripts to push the converter to Azure.
+      - name: Swiftify for Xcode
+        start_date: 2020-01
+        end_date: 2022-12
+        summary: Swiftify for Xcode is a macOS app that includes the Advanced Project Converter, Xcode Extension, and Finder Extension.
+        highlights:
+          - Worked on maintaining and enhancing the macOS app. The app includes Xcode Extension, Finder Extension and CLI, along with a macOS app.
+          - Also worked on creating an enterprise Offline solution which embeds the C# based backend as a self-contained executable.
+          - Documented the app features and user guides.
+      - name: Professional Project Conversion (Swiftify)
+        start_date: 2018-12
+        end_date: 2022-12
+        summary: Handled the conversion of Objective-C projects to Swift, and UIKit based apps to SwiftUI.
+        highlights:
+          - Handled the professional project conversions, with a 100% success rate.
+          - Converted 30+ apps to Swift and SwiftUI.
+          - Handled a wide variety of projects from Bluetooth sensors, OpenCV based apps for vision impaired users, to enterprise apps.
+      - name: Fitme
+        start_date: 2019-08
+        end_date: 2021-08
+        summary: Worked on developing a Fitness app and a companion watchOS app.
+        highlights:
+          - Developed and maintained a fitness application with a companion watchOS app.
+          - Worked on the Android app to bridge features from iOS.
+      - name: DiscoverAR
+        start_date: 2019-08
+        end_date: 2021-08
+        summary: Developed an AR App for artist to showcase their artwork.
+        highlights:
+          - Designed and implemented an AR application enabling artists to showcase their artwork, with algorithms for precise placement in empty spaces.
+      - name: BookMe
+        start_date: 2019-08
+        end_date: 2021-08
+        summary: Developed an app for Salon workers, owners and customers.
+        highlights:
+          - Developed an app that helps salon workers manage bookings, enables salon owners to oversee staff, and allows clients to make appointments.
+      - name: Family Book Application
+        start_date: 2019-04
+        end_date: 2019-11
+        summary: Developed an iOS application for internal use within business families to manage their business activities.
+        highlights:
+          - The app is designed for business families to streamline their day-to-day business activities.
+      - name: Learnbolt
+        start_date: 2017-10
+        end_date: 2019-03
+        summary: Learbolt is a Learning app for workers to learn practical skills.
+        highlights:
+          - Resolved networking and data persistence issues in an LMS application utilizing AWS DynamoDB and S3 buckets.
+    personal tech endeavours:
+      - label: Blog
+        details: Maintains a technical blog at https://medium.com/@mdibrahimhassan.
+    education:
+      - institution: Visvesvaraya Technological University
+        degree: B.E.
+        area: Electrical and Electronics Engineering
+        start_date: 2011
+        end_date: 2015
+    socials:
+      - label: Email
+        details: ibrahim@tarkalabs.com
+      - label: GitHub
+        details: https://github.com/Ibrahimhass/
+      - label: Medium
+        details: https://medium.com/@mdibrahimhassan/
+      - label: StackOverflow
+        details: https://stackoverflow.com/users/5807290/
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/mdibrahimhassan/

@@ -1,0 +1,159 @@
+cv:
+  name: Shamil Siddique
+  sections:
+    about:
+      - A technology enthusiast with more than 4 years of experience in technical analysis, software design, development, and the adoption of open source and proprietary tools.
+      - Practitioner of various methodologies including Agile and TDD.
+      - Strong team player, curious, detail-oriented, and committed to excellence.
+
+    skills:
+      - label: Programming Languages
+        details: JavaScript, Python, Ruby, Go, Dart, Java, TypeScript
+      - label: IDEs and Tools
+        details: VS Code, Android Studio, JIRA, GitHub, Bitbucket, Eclipse
+      - label: Databases
+        details: SQLite, MySQL, PostgreSQL, MongoDB
+      - label: Web Technologies
+        details: React, Svelte, Three.js, Node.js, FastAPI, Ruby on Rails, Fiber, Tailwind
+      - label: Mobile Technologies
+        details: Android, Flutter
+      - label: Hosted Services
+        details: Firebase, Google Cloud
+      - label: DevOps
+        details: CI/CD, Docker, GitHub Actions
+      - label: Testing
+        details: JUnit, Jest, PyTest, Minitest, Cypress
+
+    projects:
+      - name: "Violet Labs"
+        start_date: 2024-11
+        end_date: 2024-12
+        highlights:
+          - Extracted tightly-coupled features in NX monorepo project into separate application
+          - Collaborated with in-house engineers to setup CI/CD pipeline for the new app
+          - Setup interservice communication and auth
+      - name: "ECM"
+        start_date: 2024-06
+        end_date: 2024-10
+        highlights:
+          - Migrated legacy codebase for IEEE's platform to OpenText Documentum D2
+          - Added new features and worked around internal bugs in the new framework
+      - name: "SARA"
+        start_date: 2024-05
+        end_date: 2024-06
+        summary: AI agent to query database
+        highlights:
+          - Worked with a team to setup the project in FastAPI
+          - Explored mutliple LLMs for SQL generation performance
+          - Worked with the team to add prompt-tuning for LLM
+          - Built an integration test system to verify agent results
+      - name: "Trinity AI"
+        start_date: 2024-02
+        end_date: 2024-05
+        summary: AI report and chart generation chatbot for GAEA Global
+        highlights:
+          - Contributed in fine-tuning and prompt-tuning the LLM prompt
+          - Added image upload handling in the LLM process
+          - Added UI features for table and charts rendering
+          - Added text-inclusion tests for the chatbot responses
+      - name: "ECM"
+        start_date: 2023-12
+        end_date: 2024-01
+        highlights:
+          - Deployed OpenText Magellan on a Kubernetes cluster
+          - Debugged issues missed out on official deployment guide
+      - name: "CodeRapper"
+        start_date: 2023-11
+        end_date: 2023-12
+        summary: Jewellery tryon using AR and 3d in the browser
+        highlights:
+          - Setup the project foundation including databases, auth and organizations
+          - Handled product images and details using cloud storage
+          - Explored face-mapping models for accuracy
+          - Added 3d placement of product images using face-mapping points
+      - name: "VIDURA"
+        date: October 2023
+        summary: AI agent for interacting with large documents
+        highlights:
+          - Prepared and added new datasets for demo
+          - Integrated into Tarka website using Tarka Chat plugin
+      - name: "Tarka Chat"
+        date: October 2023
+        summary: Open-source Chat UI plugin
+        highlights:
+          - Added prechat screen support for developers by injecting DOM
+          - Added theme colors and UI updates
+          - Added GitHub actions for library build and deployment to CDN
+      - name: "QReport"
+        date: September 2023
+        summary: Browser extension for watch price
+        highlights:
+          - Setup a browser extension for edge browser
+          - Added watch search by scraping and result aggregation in the extension
+      - name: "Tarka Website"
+        date: September 2023
+        highlights:
+          - Integrated with GitHub to fetch data from Tarka UI kit repos
+          - Processed repos' README data and rendered in website
+      - name: "GAEA Scheduler"
+        start_date: 2023-08
+        end_date: 2024-04
+        highlights:
+          - Worked in a team to build scheduling engine for GAEA Global
+          - Worked on UI and backend updates and fixes in Gantt chart
+          - Helped migrate the codebase from Node to NestJs, and newer version of Angular
+      - name: "Serverless Forms"
+        date: March 2023
+        highlights:
+          - Migrated the service from Algolia search to Typesense
+          - Added small UI changes and code refactors
+      - name: "ClearSense"
+        start_date: 2022-06
+        end_date: 2023-02
+        summary: Enterprise healthcare data platform
+        highlights:
+          - Built a healthcare data platform using Ruby on Rails and React
+          - Worked with a team for data ingestion from multiple databases
+          - Added features for data consumption including reports/chart generation, dashboard creation, etc
+          - Trained new in-house engineers on the codebase
+          - Migrated codebase from Ruby on Rails to Java Spring Boot
+      - name: "Neeto"
+        start_date: 2021-07
+        end_date: 2022-05
+        summary: SaaS product line from BigBinary
+        highlights:
+          - Actively built features in multiple neeto products including Knowledgebase and quiz
+          - Built scraping and data collection tool for product marketing purposes
+          - Worked on Ruby on Rails code standardisation across the product line
+          - Worked on multiple JS libraries and Ruby gems used across the products
+      - name: "Megham Labs"
+        start_date: 2019-01
+        end_date: 2021-01
+        highlights:
+          - Cofounded a company based on an android app targeted at students
+          - Migrated the application codebase from Android to Flutter
+          - Setup processes in-place to manage marketing effort and task assignment
+
+    personal tech endeavours:
+      - label: Industrial Expert
+        details: Regulary volunteering to teach JavaScript and AJAX module for 3rd year students at Alma mater
+      - label: Personal site
+        details: Maintaining my personal site with blogs at [shamilsdq.dev](https://shamilsdq.dev)
+
+    education:
+      - institution: Cochin University of Science and Technology (CUSAT)
+        area: Computer Science and Engineering
+        degree: B.Tech
+        location: Kochi, Kerala, India
+        start_date: 2017-06
+        end_date: 2021-05
+
+    socials:
+      - label: Email
+        details: shamil@tarklabs.com
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/shamilsdq
+      - label: Github
+        details: https://github.com/shamilsdq
+      - label: Medium
+        details: https://medium.com/@shamilsdq

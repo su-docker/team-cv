@@ -1,0 +1,75 @@
+cv:
+  name: Shivam Arora
+  sections:
+    about:
+      - Senior Software Engineer having 7 years of experience in building large scale distributed web applications from scratch.
+      - Expertise in cloud native technologies e.g. Kubernetes, Dockers, observability ELK and OLAP, OLTP database.
+      - Highly competent in software architecture designing which could serve millions of concurrent requests and network protocols e.g. REST, Grpc, GraphQL.
+      - Currently working on AI/ML chatbots and LLMs. Development of document processing and extraction pipeline to process information from complex documents and fine tuning LLM with custom data.
+    skills:
+      - label: Programming Languages
+        details: Python, Golang, Typescript, Clojure, Elixir
+      - label: Devops
+        details: GitActions, Kubernetes, Docker, ELK, AWS, GCP
+      - label: Frameworks
+        details: Angular, Prime Ng, LangChain, NodeJs, Tesseract, Azure Document Intelligence, Unstructured io, Label Studio, Yolo v8, Nginx, Selenium, Transformers, Nest.js, Next.js, MongoDB, Postgres
+    projects:
+      - name: "Warehouse Management Assistant"
+        start_date: 2024-01
+        end_date: present
+        summary: LLM powered chatbot that can retrieve and learn from data available in multi datasource and answer asked questions
+        highlights:
+          - Built Warehouse management AI agent that is capable of answering questions related to inventory management, shipping, workload planning and demand forecasting. AI agent can be integrated with multiple data sources and generate insights in interactable tables, charts and figures.
+          - Implemented document processing pipeline using custom OCR models that is capable of extracting data from complex diagrams, tables and figures. Implemented system surpasses the ChatGPT vision model in accuracy and extracts 99.5% of correct data from documents.
+          - Utilized advanced OCR tools to extract diagrams and tables from scanned documents, converting them into well-structured digital formats.
+      - name: "Image filtering and recognition  Chat Bot"
+        start_date: 2024-06
+        end_date: 2024-12
+        highlights:
+          - Trained and fine-tuned various VLM models, including Kosmos-2, Microsoft Florence and PaliGemma with custom data for Visual Question Answering (VQA) use cases.
+          - Implemented ML pipeline that uses label studio to annotate images, transformer library to train model and stores trained model in private storage.
+      - name: "Ad serving and revenue tracking service"
+        start_date: 2023-06
+        end_date: 2024-06
+        highlights:
+          - Conceptualized performance sensitive ads serving service which improved the user engagement and revenue up to 20%. Leveraged dynamic, immutable, JVM based language Clojure for its development and Kubernetes for ensuring its 100% uptime.
+          - Developed Revenue aggregation service that concurrently extracts CPC, impression, clicks, CTR related data from different ad management platforms i.e. Taboola, Google Adsense. Aggregated, filtered data by publisher id, date and stored in OLAP database Clickhouse for further analysis.
+      - name: "ETL Salesforce Pipeline"
+        start_date: 2022-06
+        end_date: 2023-06
+        highlights:
+          - Increased lead conversion by 38% by automation and end to end api integration with Salesforce cloud. Developed ETL (extract, transform, load) model with internal and external data sources, providing consolidated sales related insights and activities under a single portal. Resulted in decreased new lead onboarding time from 1 day to 30 minutes.
+          - Adopted GitActions to streamline workflows and code deployments. Simplified GitAction CI/CD pipelines for different tech stacks and provided provisions like canary, multi branch deployment, parallel testing that improved developer's productivity and code deployment time by 40%.
+      - name: "Coupons Service"
+        start_date: 2022-03
+        end_date: 2022-06
+        highlights:
+          - Presented highly customized coupons according to segment of user which increased the user retention by 35% and used ACID properties of SQL to ensure coupon claim transactions happens consistently. Developed RabbitMQ based distributed in memory cache system to obtain response time of 5ms of GET requests.
+      - name: "Multi tenant highly distributed Game Server"
+        start_date: 2019-06
+        end_date: 2022-03
+        highlights:
+          - Conceived and meticulously crafted real-time, social and competitive games using the cutting-edge power of Nakama, an open source game server platform. From ideation to execution, my innovative approach and proficiency in Nakama and Golang allowed me to build captivating and thrill games from scratch within months.
+          - Engineered high performance tournament service using Golang's concurrency prowess. Crafted versatile tournament platform accommodating various formats like free roll, knockout with the architecture that handles thousands of players playing hundreds of tournaments.
+          - Architected and developed a cutting edge dynamic rewards distribution engine that engages 1 million DAU with features like scratch and win, multi format leaderboards, refer and coupons rewards.
+    personal tech endeavours:
+      - label: "Youtube GPT"
+        details: "A chatbot trained on YouTube videos can be used to summarize and answer questions about those videos."
+      - label: "Document Diagram Extractor"
+        details: "An ML model capable of extracting images, diagrams, and charts from documents. When integrated with a RAG pipeline, it enables the LLM to include images along with text in the final output."
+    education:
+      - institution: Punjab Technical University
+        area: Computer Science
+        degree: B.Tech
+        location: Jalandhar, Punjab
+        start_date: 2014-06
+        end_date: 2018-06
+    socials:
+      - label: Email
+        details: shivam.arora@tarklabs.com
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/shivam-ar/
+      - label: Github
+        details: https://github.com/shivamarora1/
+      - label: Medium
+        details: https://medium.com/@shivamarora1

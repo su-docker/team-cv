@@ -1,0 +1,111 @@
+cv:
+  name: Kalpesh Patel
+  sections:
+    about:
+      - 12+ years of expertise in Android application development, delivering high-performance and user-centric mobile apps.
+      - Proven track record in architecting and developing scalable Android solutions using Java, Kotlin, and Flutter.
+      - Versatile full-stack developer with strong backend skills in Node.js, Go, Rust, and frontend expertise in React.js, Next.js.
+      - Experienced in cloud infrastructure (AWS, Firebase, Google Cloud) and DevOps (CI/CD, Bitbucket Pipeline, GitHub Actions).
+    skills:
+      - label: Programming Languages
+        details: Proficient with Java, Kotlin, Dart (Flutter), JavaScript, Go, Rust, Python
+      - label: Frameworks and Libraries
+        details: React.js, Next.js, Nest.js, Node.js, TensorFlow, PyTorch, GraphQL
+      - label: Databases
+        details: SQLite, MySQL, PostgreSQL, Realm ORM
+      - label: DevOps & Hosting
+        details: AWS, Firebase, Google Cloud, CI/CD, Bitbucket Pipeline, Bitrise, GitHub Actions
+      - label: Testing
+        details: JUnit, Jest, Mockito, Espresso
+      - label: Android Tools
+        details: Jetpack Compose, Dagger, Hilt, Room, SqlDelight, OkHttp, Apollo GraphQL, RxJava, Coroutines-Flows, Retrofit, OkHttp, Work Manager, Coil, LeakCanary, Flipper
+    projects:
+      - name: ARK
+        start_date: 2024-07
+        end_date: present
+        summary: Enhanced a blockchain-based intellectual property protection application for seamless user experience.
+        highlights:
+          - Revamped Flutter mobile and React web apps for optimal performance and stability.
+          - Developed and refined Node.js APIs for frontend integration.
+          - Facilitated timely Apple App Store review to support client presentation at Harvard.
+      - name: Songistry
+        start_date: 2023-08
+        end_date: 2024-02
+        summary: Developed advanced music licensing web applications supporting AI-based features.
+        highlights:
+          - Contributed to developing music licensing web apps using React and Next.js.
+          - Played a key role in maintaining and enhancing a robust GraphQL API built in Rust, interfacing with PostgreSQL for AI-based similarity searches.
+          - Integrated AWS S3 and SES for storage and email services.
+          - Implemented client-side caching for efficient data retrieval and persistent in-memory storage to accelerate UI rendering.
+      - name: Kili
+        start_date: 2023-02
+        end_date: 2023-07
+        summary: Developed an AI-based podcast transcription and translation web app.
+        highlights:
+          - Managed Next.js frontend and Go backend.
+          - Integrated AWS S3 and SQS for audio storage and queue processing.
+          - Implemented semantic search and multilingual podcast highlighting.
+      - name: Tarka UI Kit
+        start_date: 2023-05
+        end_date: 2024-07
+        summary: Designed and developed a comprehensive UI Kit to establish design consistency and accelerate product development.
+        highlights:
+          - Created a modular, reusable set of UI components tailored for scalable product design.
+          - Implemented snapshot testing and component documentation to ensure visual integrity and maintainability.
+          - Collaborated closely with design and development teams to align UI standards with product goals.
+      - name: EAM360
+        start_date: 2016-03
+        end_date: 2023-04
+        summary: Led the development of a comprehensive enterprise-scale mobile application designed to streamline data-intensive workflows for large organizations.
+        highlights:
+          - Designed and implemented a modular, scalable architecture to support 200+ customizable modules and role-based workflows.
+          - Spearheaded the integration of third-party services, including ESRI ArcGIS for geospatial data and IoT devices, enhancing app functionality.
+          - Developed and maintained a background synchronization library, enabling complex offline operations with transaction dependencies.
+          - Enhanced data synchronization strategy, achieving over a 20x increase in sync speed and reliability for large datasets.
+          - Led a team of 10+ engineers, providing technical leadership, mentorship, and aligning technical vision with business goals.
+          - Contributed significantly to product revenue growth by developing features that catered to enterprise clients, resulting in multi-million dollar deals.
+      - name: Abridge
+        start_date: 2020-02
+        end_date: 2021-01
+        summary: Contributed to a healthcare app for doctor-patient conversations.
+        highlights:
+          - Developed Android audio recording module with lossless compression.
+          - Initiated audio streaming to backend for lower latency.
+      - name: Moove
+        start_date: 2017-08
+        end_date: 2018-06
+        summary: Led development of a transportation app with driver and passenger interfaces.
+        highlights:
+          - Implemented geofencing and route planning.
+          - Developed APIs in Golang to support mobile functionalities.
+          - Enabled real-time ETA display and ride scheduling.
+      - name: Prepathon
+        start_date: 2015-01
+        end_date: 2016-04
+        summary: Developed a mobile learning app with study modules.
+        highlights:
+          - Enabled live chat with real coaches.
+          - Created interactive learning and discussion modules.
+      - name: AppWrapper
+        start_date: 2012-02
+        end_date: 2014-05
+        summary: Developed an automated ad SDK integration tool.
+        highlights:
+          - Simplified ad SDK integration for developers.
+          - Led end-to-end development of Android Advertising SDK.
+    education:
+      - institution: K. J. Somaiya College of Engineering, University of Mumbai
+        area: Electronics and Telecommunications
+        degree: BE
+        location: Mumbai, MH, India
+        start_date: 2006-06
+        end_date: 2010-06
+        highlights:
+          - Studied Computer Communication and Networks, Micro-Controllers/Processors, and Logic Design.
+    socials:
+      - label: Email
+        details: kalpesh@tarklabs.com
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/kalpesh-patel-dev
+      - label: Github
+        details: https://github.com/kalpeshp0310

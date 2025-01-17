@@ -1,0 +1,139 @@
+cv:
+  name: Akshay Mayekar
+  title: Senior Technical Consultant
+  sections:
+    about:
+      - I'm a senior software engineer with 9+ years of experience building full stack applications
+        across the stack.
+      - Well versed in following Agile Development and having good insights of Design, Development,
+        Deployment and Review
+      - Passionate for developing innovative solutions to complex problems. I have
+        experience in a wide range of technologies and frameworks,
+        including Python, NodeJS, React.js, Java and GenAI.
+    skills:
+      - label: Programming Languages
+        details:
+          Proficient with Python, NodeJS, ReactJS, Java, GenAI, LLMs, RAG Tools and Git;
+          good understanding of Web, app development, and DevOps
+      - label: Frameworks
+        details: React.js, Nest.js, Flask, FastAPI, SpringBoot, Langchain
+    projects:
+      - name: GAEA AI Chatbot
+        start_date: 2023-12
+        end_date: 2025-01
+        summary: A GenAI and LLM based chatbot to cater to wide information that the client has.
+        highlights:
+          - Built custom and hybrid LLM-based solution to solve the problems in the GAEA supply
+            chain management system for instant data retrieval, and report generation.
+          - Used the customised LLM agents with function calling along with SQL/NOSQL and code
+            generation capabilities of different LLMs to general reasoning-based chat responses,
+            and generate charts, and reports.
+          - We also built the custom processor for documents of various types from different sources,
+            to generate embeddings and answer questions based on documents.
+          - The solution initially designed to be standalone is now integrated into their enterprise
+            platform.
+          - Worked on the project from inception to delivery.
+          - Tech Stack - Python, Flask, Unstructured, OpenAI, Llama, Azure Document Intelligence,
+            Angular
+      - name: GAEA Cost Control
+        start_date: 2023-02
+        end_date: 2025-08
+        summary: A submodule for an enterprise application suite to manage the SCM lifecycle.
+        highlights:
+          - Worked on GAEA Enterprise Application to add a sub-module Cost Control that
+            manages the life cycle of supply chain cost control from estimations to reports.
+          - Worked on the project from inception to delivery.
+          - Tech Stack - NodeJS, NestJS, Angular
+      - name: DocumentAI POC
+        start_date: 2023-11
+        end_date: 2023-12
+        summary:
+          A detailed POC to explore Google Document AI and other alternatives to read the
+          documents in PDF and image formats and digitize them in data stores.
+        highlights:
+          - As part of GAEA POC, we explored Google Document AI and ChatGPT to read scanned images
+            and documents to extract structured information from digital and handwritten text.
+            A case study of the POC can be found at https://tarkalabs.com/works/docgenai/.
+          - Tech Stack - DocumentAI, Python, NodeJS
+      - name: SITA
+        date: 2023-10
+        summary:
+          A POC on GenAI based chatbot to transalte user queries to API calls to
+          generate answers.
+        highlights:
+          - Worked on Smart Information and Task Assistant (SITA) to integrate movies
+            api with ChatGPT and function calling to create a chatbot that answers the
+            queries based on movies. We used langchain agent-based function calling to
+            solve the problem.
+          - Tech Stack - Python, Flask, Langchain, OpenAI
+      - name: Sales Email Generator
+        date: 2023-09
+        summary: An application to generate sales email based on job descriptions.
+        highlights:
+          - Worked on Sales Email Agent (SEA), a tool that uses ChatGPT and langchain to
+            generate lead emails based on the job description of the target organization,
+            the capabilities of the organization and skillset requirements.
+          - Tech Stack - Python, Flask, Langchain, OpenAI
+      - name: ServerlessForms
+        start_date: 2022-12
+        end_date: 2023-02
+        summary: An application to manage user queries on company websites.
+        highlights:
+          - Worked on Tarka Lab’s product Serverless Forms which helps client simplify
+            forms on their website by providing a solution that manages the form data.
+          - The app is available at https://serverlessforms.com/ for use.
+      - name: BCG People Ecosystem
+        start_date: 2020-07
+        end_date: 2022-11
+        summary: An API/App suite to manage employees information.
+        highlights:
+          - A set of services written in NodeJS to cater to employee information and
+            management needs for various teams in the company.
+          - Tech Stack - NodeJS, ExpressJS, TypeScript, Graphql, ElasticSearch, Apollo
+            Server, Python, Jest.
+      - name: IBS - Airport FieldView
+        start_date: 2019-12
+        end_date: 2020-06
+        summary: A mapbox based UI to show current flights view for monitoring and faster decision making.
+        highlights:
+          - Developed a React, Mapbox based application to visualise the airplane schedule
+            and take informed decisions.
+          - Tech Stack - Java8 as BFF, React In Angular, Mapbox
+      - name: McKinsey Fieldguide
+        start_date: 2019-01
+        end_date: 2019-11
+        highlights:
+          - Tool to analyze past data presented by pharmaceutical companies and create a
+            call plan for MR. Also apply different algorithms to divide territories equally into
+            groups of MR.
+          - Tech Stack - Java, Spring Boot, AngularJS, Docker, Kubernetes, ROR, Python, Julia,
+            R, Google Maps.
+      - name: Rolls Royce Data Modernization
+        start_date: 2018-02
+        end_date: 2018-12
+        highlights:
+          - This application was built to analyze and visualize the data received from
+            RollsRoyce flight engines after hardlanding to find any pattern to take informed
+            decisions and avoid any hard landings in the future.
+          - Tech Stack - Java, Spring Boot, React JS, Elastic Search, MySQL, Postgres, Docker
+      - name: PrecisionHawk Application Suite
+        start_date: 2015-07
+        end_date: 2018-01
+        highlights:
+          - Suite for multiple applications for controlling and monitoring drones,
+            processing images captured by drones, and managing drone traffic.
+          - Tech Stack - Java, JavaFX, Spring Boot, AWS, Mapbox
+    education:
+      - institution: Pune University
+        area: Computer Science
+        degree: B.E.
+        location: Pune, MH, India
+        start_date: 2011-07
+        end_date: 2015-06
+    socials:
+      - label: Email
+        details: akshay@tarklabs.com
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/akshaymayekar
+      - label: Github
+        details: http://github.com/akshaymayekar
