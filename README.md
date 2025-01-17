@@ -4,6 +4,8 @@
 
 Maintaining up-to-date, shareable team portfolios can be a challenge for small services companies. This repository offers a streamlined solution, enabling you to centralize and standardize your team's profiles while automating the creation of professional PDF CVs. Built using [RenderCV](https://github.com/rendercv/rendercv/tree/main) with a custom organizational template, it’s designed to save time and effort.
 
+![preview](./team-cv-snapshot.jpg)
+
 ## Features
 
 - Centralized repository for all of team members profiles
@@ -21,7 +23,7 @@ Maintaining up-to-date, shareable team portfolios can be a challenge for small s
 
 ## YAML Format
 
-The profile format is based on the RenderCV engine. Sample YAML files are provided in the `/data` folder (e.g., sample_profile_1.yaml). For detailed guidance on the structure, visit the [RenderCV yaml structure](https://docs.rendercv.com/user_guide/structure_of_the_yaml_input_file) documentation.
+The profile format is based on the RenderCV engine. Sample YAML files are provided in the `/data` folder (e.g., john_doe_profile.yaml). For detailed guidance on the structure, visit the [RenderCV yaml structure](https://docs.rendercv.com/user_guide/structure_of_the_yaml_input_file) documentation.
 
 ## Customizing the Profile Template
 
